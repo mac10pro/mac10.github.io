@@ -10,9 +10,8 @@
    <meta name="author" content="mac10pro team" />   
 
    <!--    per post meta -->
-   <meta property="og:title" content="{{ page.title }} - {{ post.title }}" />
-   <meta property="og:url" content="{{ site.url }}{{ post.url }}" />
-   <meta property="og:description" content="{{ post.excerpt }}" />
+   <meta property="og:title" content="{{ page.title }}" />
+   <meta property="og:url" content="{{ site.url }}" />
    <meta name="description" content="{{ page.description | default: post.excerpt | default: 'MAC10.PRO is a visually-driven blog covering software, pop culture, memes, design, and wallpapers.' }}" />
 
    {% if post.image %}
@@ -24,6 +23,9 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css?v=1" type="text/css" media="screen, projection" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">	
 
    <!-- favicon -->
    <link rel="apple-touch-icon" sizes="180x180" href="/favico/apple-touch-icon.png">
