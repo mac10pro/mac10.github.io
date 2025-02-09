@@ -5,56 +5,62 @@
 /*****************************************************************************/
 /* Global Reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    background-color: white;
-    text-align: center;
-	font-family: "Inter", sans-serif;
+  background-color: white;
+  text-align: center;
+  font-family: "Inter", sans-serif;
 }
 *,
 html {
-	margin: 0;
-	padding: 0;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
 }
 
 h1 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 p {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 a {
-    color: #00a;
+  color: #00a;
 }
 
 a:hover {
-    color: black;
+  color: black;
 }
 
 a:visited {
-    color: #a0a;
+  color: #a0a;
 }
 
 table {
-    font-size: inherit;
-    font: 100%;
+  font-size: inherit;
+  font: 100%;
 }
 
 /*****************************************************************************/
@@ -63,29 +69,30 @@ table {
 /*
 /*****************************************************************************/
 ul.posts {
-    list-style-type: none;
-    margin-bottom: 2em;
+  list-style-type: none;
+  margin-bottom: 2em;
 }
 
 ul.posts li {
-    line-height: 1.75em;
+  line-height: 1.75em;
 }
 
 ul.posts span {
-    color: #494949;
-    font-family: monospace;
-    font-size: 10px;
+  color: #494949;
+  font-family: monospace;
+  font-size: 10px;
 }
 
 ul.posts .post {
-    margin: 1em 0 5em;
-    text-align: center;
+  margin: 1em 0 5em;
+  text-align: center;
 }
 
-.imgBlock, .imgBlock img {
-    margin: 0 auto;
-    text-align: center;
-    max-width: 100%;
+.imgBlock,
+.imgBlock img {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
 }
 
 /*****************************************************************************/
@@ -94,84 +101,85 @@ ul.posts .post {
 /*
 /*****************************************************************************/
 .site {
-    font-size: 100%;
-    text-align: left;
-    width: 1000px;
-    margin: 3em auto 2em auto;
-    line-height: 1.5em;
+  font-size: 100%;
+  text-align: left;
+  width: 1000px;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
 }
 
 .title {
-    color: #a00;
-    font-weight: bold;
-    margin-bottom: 2em;
-    letter-spacing: -0.1em;
-    text-transform: uppercase;
+  color: #a00;
+  font-weight: bold;
+  margin-bottom: 2em;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
 }
 
 .title:after {
-    content: '';
-    background: transparent url(https://mac10.pro/favico/android-chrome-512x512.png) no-repeat;
-    background-size: cover;
-    width: 53px;
-    height: 53px;
-    display: inline-block;
-    position: absolute;
-    top: 1.6em;
-    margin-left: 1em;
+  content: "";
+  background: transparent
+    url(https://mac10.pro/favico/android-chrome-512x512.png) no-repeat;
+  background-size: cover;
+  width: 53px;
+  height: 53px;
+  display: inline-block;
+  position: absolute;
+  top: 1.6em;
+  margin-left: 1em;
 }
 
 .site .title a:link,
 .site .title a:visited {
-    text-decoration: none;
-    color: #555555;
-    font-size: 30px;
+  text-decoration: none;
+  color: #555555;
+  font-size: 30px;
 }
 
 .site .title a:hover,
 .site .title a:active {
-    color: black;
+  color: black;
 }
 
 .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 1em;
 }
 
 .site .title a.extra:hover {
-    color: black;
+  color: black;
 }
 
 .site .meta {
-    color: #aaa;
+  color: #aaa;
 }
 
 .site .footer {
-    font-size: 11px;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
+  font-size: 11px;
+  color: #666;
+  border-top: 2px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
 }
 
 .site .footer .contact {
-    float: left;
-    margin-right: 2em;
+  float: left;
+  margin-right: 2em;
 }
 
 .site .footer .contact a {
-    color: #8085C1;
+  color: #8085c1;
 }
 
 .site .footer .rss {
-    margin-top: 1.1em;
-    margin-right: -.2em;
-    float: right;
+  margin-top: 1.1em;
+  margin-right: -0.2em;
+  float: right;
 }
 
 .site .footer .rss img {
-    border: 0;
+  border: 0;
 }
 
 /*****************************************************************************/
@@ -179,52 +187,91 @@ ul.posts .post {
 /* Posts
 /*
 /*****************************************************************************/
-#post {}
+#post {
+}
 
 /* standard */
 #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 0.4em;
 }
 
 #post ul,
 #post ol {
-    margin-left: 1.35em;
+  margin-left: 1.35em;
 }
 
 #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  font-size: 85%;
+  padding: 0 0.2em;
 }
 
 #post pre code {
-    border: none;
+  border: none;
 }
 
 #post img {
-    max-width: 100%;
-    padding: 0;
-    margin: 1em 0;
+  max-width: 100%;
+  padding: 0;
+  margin: 1em 0;
 }
 
 /* terminal */
 #post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
+  border: 1px solid black;
+  background-color: #333;
+  color: white;
 }
 
 #post pre.terminal code {
-    background-color: #333;
+  background-color: #333;
 }
 
 #related {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 #related h2 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: calc(5vw+2vh);
+  }
+  #post h1 {
+    font-size: 20px;
+  }
+  .site .title {
+    padding: 0 24px;
+    max-width: 100vw;
+  }
+  #post h1,
+  .footer {
+    padding: 0;
+    max-width: 100vw;
+  }
+  .site .footer .contact {
+    float: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .site .footer {
+    border-top: none;
+    box-shadow: 0 -2px #eee;
+    padding: 0;
+    width: 80%;
+    max-width: 75vw;
+    margin: 0 24px;
+    line-height: 1.24;
+  }
+  #post {
+    font-size: 2em;
+    line-height: 1.25;
+    padding: 0 24px;
+  }
 }
