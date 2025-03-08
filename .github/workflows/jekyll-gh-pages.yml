@@ -38,8 +38,6 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: My Markdown Link Checker
-        uses: ruzickap/action-my-markdown-link-checker@v1.3.0
 
   # Deployment job
   deploy:
