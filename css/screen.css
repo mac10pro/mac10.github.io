@@ -279,6 +279,6 @@ ul.posts .post {
 
 /* ############### */
 /* comments css */
-#__next .w-full {
-    width: 90vw;
+.giscus, .giscus-frame {
+    width: 1000px;
 }
