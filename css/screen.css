@@ -275,3 +275,10 @@ ul.posts .post {
     padding: 0 24px;
   }
 }
+
+
+/* ############### */
+/* comments css */
+#__next .w-full {
+    width: 90vw;
+}
