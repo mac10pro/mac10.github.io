@@ -281,4 +281,5 @@ ul.posts .post {
 /* comments css */
 .giscus, .giscus-frame {
     width: 1000px;
+    margin: 0 auto 2em;
 }
