@@ -6,5 +6,6 @@
 * images/
 
 All other directories and files are MIT Licensed. Feel free to use the HTML and
-CSS as you please. If you do use them, a link back to
-http://github.com/mojombo/jekyll would be appreciated, but is not required.
+CSS as you please. 
+
+Thanks for quick Blog setup from: http://github.com/mojombo/jekyll
