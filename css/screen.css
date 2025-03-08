@@ -279,7 +279,7 @@ ul.posts .post {
 
 /* ############### */
 /* comments css */
-.giscus, .giscus-frame {
-    width: 1000px;
-    margin: 0 auto 2em;
+.giscus {
+    width: 1000px!important;
+    margin: 0 auto 2em!important;
 }
