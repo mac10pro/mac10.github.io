@@ -159,6 +159,7 @@ ul.posts .post {
   font-size: 11px;
   color: #666;
   border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
   margin-top: 2em;
   overflow: hidden;
 }
