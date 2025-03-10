@@ -284,14 +284,14 @@ ul.posts .post {
     width: 1000px!important;
     margin: 0 auto 2em!important;
 }
-.gsc-comments {
+.giscus .gsc-comments {
     padding: 2em;
     margin: 0 0 3em;
 }
-.gsc-comments-count {
+.giscus .gsc-comments-count {
     display: none;
 }
-.gsc-main {
+.giscus .gsc-main {
     gap: 0;
 }
 .site {
