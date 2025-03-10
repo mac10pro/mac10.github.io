@@ -284,3 +284,19 @@ ul.posts .post {
     width: 1000px!important;
     margin: 0 auto 2em!important;
 }
+.gsc-comments {
+    padding: 2em;
+    margin: 0 0 3em;
+}
+.gsc-comments-count {
+    display: none;
+}
+.gsc-main {
+    gap: 0;
+}
+.site {
+    max-width: 1000px;
+}
+#post img {
+	margin: 0 auto;
+}
