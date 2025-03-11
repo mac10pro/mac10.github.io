@@ -7,5 +7,3 @@
 
 All other directories and files are MIT Licensed. Feel free to use the HTML and
 CSS as you please. 
-
-Thanks for quick Blog setup from: http://github.com/mojombo/jekyll
